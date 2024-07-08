@@ -1,0 +1,55 @@
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.btn-brown {
+  background-color: #a57c5b;
+  color: white;
+}
+
+.btn-brown:hover {
+  background-color: #8a664a;
+}
+
+#hero {
+  background-image: url("images/coffee_tea.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  text-align: left;
+}
+
+#hero .herocontent h1,
+h2,
+h4,
+p {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
